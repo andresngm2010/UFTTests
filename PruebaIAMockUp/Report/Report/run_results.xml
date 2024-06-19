@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.SetContext</Name>
+    <Description>Set context Device("[ Device ]") for AIUtil</Description>
+    <StartTime>2024-06-19 10:15:41</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>AIUtil</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\c7f31431-151c-4e86-88d1-7e5e22d2d6f1.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("input", "Email").Type</Name>
+    <Description>"andresngm2010@gmail.com"</Description>
+    <StartTime>2024-06-19 10:15:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("input", "Email")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>91,00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("input", "Email")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["andresngm2010@gmail.com"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Email]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[input]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>386fcb23545f46e9a4de709dfffc97d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d79560f1-1534-43e1-9074-eb194a9134ba.jpeg" highlight="94,1132,931,91" />
+    <DeviceInfo>
+      <DeviceTime>2024-06-19 10:15:56.565</DeviceTime>
+      <TimeZone>UTC-05:00 hora de Ecuador</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("input", "Contraseña").Type</Name>
+    <Description>"TeleVision1"</Description>
+    <StartTime>2024-06-19 10:16:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("input", "Contraseña")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>91,00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("input", "Contraseña")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["TeleVision1"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Contraseña]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[input]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>386fcb23545f46e9a4de709dfffc97d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7871dbe8-32a4-4d51-b6d6-cb3f3117061b.jpeg" highlight="88,1505,936,87" />
+    <DeviceInfo>
+      <DeviceTime>2024-06-19 10:16:03.556</DeviceTime>
+      <TimeZone>UTC-05:00 hora de Ecuador</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("button", "INICIAR SESION CON GOOGLE").Click</Name>
+    <Description />
+    <StartTime>2024-06-19 10:16:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("button", "INICIAR SESION CON GOOGLE")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>65,00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("button", "INICIAR SESION CON GOOGLE")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[INICIAR SESION CON GOOGLE]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>386fcb23545f46e9a4de709dfffc97d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\16502fad-8d1b-4479-a074-3520ab130ffa.jpeg" highlight="78,2141,956,132" />
+    <DeviceInfo>
+      <DeviceTime>2024-06-19 10:16:09.605</DeviceTime>
+      <TimeZone>UTC-05:00 hora de Ecuador</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.FindTextBlock("Andres Gomez").Click</Name>
+    <Description />
+    <StartTime>2024-06-19 10:16:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("Andres Gomez")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>99,00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("Andres Gomez")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Andres Gomez]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>386fcb23545f46e9a4de709dfffc97d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\b6269b54-0579-4675-89a5-0ff3068e5ae1.jpeg" highlight="256,1193,288,32" />
+    <DeviceInfo>
+      <DeviceTime>2024-06-19 10:16:18.939</DeviceTime>
+      <TimeZone>UTC-05:00 hora de Ecuador</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.FindTextBlock("Comunidades").Click</Name>
+    <Description />
+    <StartTime>2024-06-19 10:16:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("Comunidades")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>99,00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("Comunidades")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Comunidades]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>386fcb23545f46e9a4de709dfffc97d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d7af17a4-206e-4879-8713-412da31adf78.jpeg" highlight="251,2296,255,32" />
+    <DeviceInfo>
+      <DeviceTime>2024-06-19 10:16:28.428</DeviceTime>
+      <TimeZone>UTC-05:00 hora de Ecuador</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.FindTextBlock("Buscar").Click</Name>
+    <Description />
+    <StartTime>2024-06-19 10:16:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("Buscar")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>99,00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("Buscar")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Buscar]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>386fcb23545f46e9a4de709dfffc97d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\cd1879ab-8e96-4c39-a3f0-c9c5ce670335.jpeg" highlight="617,2298,127,30" />
+    <DeviceInfo>
+      <DeviceTime>2024-06-19 10:16:36.967</DeviceTime>
+      <TimeZone>UTC-05:00 hora de Ecuador</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.FindTextBlock("Home").Click</Name>
+    <Description />
+    <StartTime>2024-06-19 10:16:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("Home")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>99,00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("Home")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Home]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>386fcb23545f46e9a4de709dfffc97d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\67417b71-b703-4a8f-892b-c17a7ada505d.jpeg" highlight="22,2298,116,30" />
+    <DeviceInfo>
+      <DeviceTime>2024-06-19 10:16:42.057</DeviceTime>
+      <TimeZone>UTC-05:00 hora de Ecuador</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("dot_menu").Click</Name>
+    <Description />
+    <StartTime>2024-06-19 10:16:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("dot_menu")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>75,00</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("dot_menu")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[dot_menu]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>386fcb23545f46e9a4de709dfffc97d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\834baf0e-4362-4506-8961-6348b8d68a42.jpeg" highlight="993,137,39,73" />
+    <DeviceInfo>
+      <DeviceTime>2024-06-19 10:16:48.533</DeviceTime>
+      <TimeZone>UTC-05:00 hora de Ecuador</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.FindTextBlock("Cerrar Sesion").Click</Name>
+    <Description />
+    <StartTime>2024-06-19 10:16:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("Cerrar Sesion")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>98,00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("Cerrar Sesion")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Cerrar Sesion]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>386fcb23545f46e9a4de709dfffc97d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e2ce8de8-16b6-4ed6-8983-38a993ac7fd4.jpeg" highlight="531,183,279,34" />
+    <DeviceInfo>
+      <DeviceTime>2024-06-19 10:16:56.007</DeviceTime>
+      <TimeZone>UTC-05:00 hora de Ecuador</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2024-06-19 10:15:23</StartTime>
+    <Duration>93</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>b3651f7b279d4567a4f8bbf51114f4f9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2024-06-19 10:15:23</StartTime>
+    <Duration>93</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>795228abd3be4a3e889cb9c02c4a5db5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>PruebaIAMockUp</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>24.2</ToolVersion>
+    <ToolVersionStringLiteral>24.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-06-19 10:15:19</StartTime>
+    <Duration>97</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <ParallelRunnerEnvInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <ID>NWBDU19403002408</ID>
+        <Manufacturer>HUAWEI</Manufacturer>
+        <Model>SNE-LX3</Model>
+        <OsType>ANDROID</OsType>
+        <OsVersion>10</OsVersion>
+        <DesktopBrowser />
+        <ErrorMessage />
+      </ParallelRunnerEnvInfo>
+      <IconKey>43b73e74cd564244bd3a8ae7035a7a5a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>español (Ecuador)</Locale>
+      <User>SAGGAAC-SOPORTE</User>
+      <CpuInfo>Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz</CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>16265</TotalMemory>
+      <HostName>SAGGA-SOPORTE</HostName>
+      <OSInfo>Windows 11 23H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Report</ResultName>
+    <RunStartTime>2024-06-19 10:15:19</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>24.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>24.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

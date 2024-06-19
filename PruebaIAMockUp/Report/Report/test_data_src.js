@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\SAGGAAC-SOPORTE\\Documents\\UFT One\\PruebaIAMockUp\\Report',namePairs:[]}]};
